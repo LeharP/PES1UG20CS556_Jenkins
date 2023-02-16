@@ -7,7 +7,7 @@ pipeline{
         build job : 'PES1UG20CS556-1'
         echo 'built'
       }
-    }
+    
     stage('Test'){
       steps{
         sh './a.out'
